@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Hanshab</title>
+    <link rel="icon" type="image/x-icon" href="Assets/images/favicon.ico">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Scroll Top -->
+    <a href="#home" class="scroll-top">
+        <i class='bx bx-up-arrow-alt' ></i>
+    </a>
+
+    <!-- Header -->
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">AH.</a>
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="Assets/images/Profile.png" alt="">
+            </div>
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">Abdul Hanshab</span></h2>
+                <p>
+                    I'm Working as <span class="color">Frontend development</span> and <span class="color">Graphic designing.</span>
+                </p>
+                <!-- Social Media -->
+                <div class="social">
+                    <a href="https://www.facebook.com/Anzzco"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/anzzco"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/anzzco"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Web Developer, <br> Graphic Designer & UI&UX Designer</h2>
+                <a href="Assets/images/Abdul Hanshab.pdf" class="btn" download="">
+                    Download CV
+                    <i class='bx bx-download' ></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello i am Abdul Hanshab. Web Developer, Graphic designer and UI&UX designer.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem id odit laboriosam nihil veritatis!</p>
+                <p>Get your project book with contact button.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services container" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore ad, saepe nulla facere dolore!</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brush' ></i>
+                <h2>Graphic Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore ad, saepe nulla facere dolore!</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h2>UI&UX Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore ad, saepe nulla facere dolore!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact container" id="contact">
+        <h2 class="heading">Contact</h2>
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email Address" class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn"> 
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="mailto:abdulanshab@gmail.com"><i class='bx bx-envelope'></i></a>
+            <a href="https://www.facebook.com/Anzzco"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/anzzco"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.linkedin.com/in/abdul-hanshab-3092b01ba"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/abdulanshab"><i class='bx bxl-github'></i></a>
+            <a href="https://www.behance.net/abdulanshab"><i class='bx bxl-behance'></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <p>Copywrite 2022 &#169; Abdul Hanshab</p>
+    </section>
+
+    <!-- Email Js Link -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- Sweet Alert Link -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("WVzy7kTNwTVJyPx34");
+        })();
+    </script>
+    <!-- Javascript Link -->
+    <script src="Assets/js/main.js"></script>
+</body>
+</html>
